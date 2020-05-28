@@ -1,30 +1,15 @@
-.. title:: Introduction to Nutanix AHV
+.. title:: Nutanix Calm Runbooks and Endpoints
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 3
   :caption: Labs
   :name: _labs
   :hidden:
 
-  examplelab1/examplelab1
-  examplelab2/examplelab2
+  endpoints/endpoints
+  runbooks/runbooks
+  optionallabs/blueprint
 
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  examplelab3/examplelab3
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Appendix
-  :name: _appendix
-  :hidden:
-
-  appendix/glossary
-  appendix/otherstuff
 
 .. _getting_started:
 
@@ -32,39 +17,30 @@
 Getting Started
 ---------------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit odio, ultrices sed elementum vitae, dictum eget turpis. Etiam ultrices orci quis tempus tempus. Nulla non nibh imperdiet, suscipit risus quis, eleifend nisl. Morbi at posuere nibh, quis bibendum dui. Morbi dictum sem a ipsum bibendum condimentum. Suspendisse id ante gravida, efficitur leo a, consequat enim. Suspendisse tempor lorem vel purus scelerisque, vel facilisis lorem consequat. Pellentesque augue orci, iaculis vel mollis sit amet, scelerisque a tellus. Aliquam commodo in lectus feugiat porta.
+Welcome to the handson Workshop for Runbooks in CALM. This Workshop will cover the creation of an Endpoint for Linux and Windows VMs and a Runbook to execute specific tasks on those Endpoints. You will have to connect to a HPOC environment, the details for the HPOC are futher down. If any questions come up as part of the Workshop don't hesitate to ask.
 
-What's New
-++++++++++
-
-- Workshop updated for the following software versions:
-    - AOS & PC 5.11
-
-- Optional Lab Updates:
-
-- Added :ref:`example_lab_3`
 
 Agenda
 ++++++
 
-- Introductions
-- Nutanix Technology Overview
-- Nutanix Configuration
-- Deploying and Managing Workloads
-- Security Compliance
-- Monitoring and Managing the Environment
+1. Create Endpoints: 
 
-Introductions
-+++++++++++++
+   - Linux
+   - Windows
 
-- Name
-- Familiarity with Nutanix
+2. Create RunBooks:
+
+   - RunBook for Windows patching
+   - RunBook to scan RPMs on Linux
+   - Using Endpoints in Blueprints and creating Endpoints by API
+
 
 Initial Setup
 +++++++++++++
 
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
+
 
 Environment Details
 +++++++++++++++++++
